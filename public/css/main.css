@@ -10,13 +10,18 @@ body {
     font-family: 'Ubuntu', sans-serif;
     color: #001A33;
     -webkit-tap-highlight-color: #222;
-    padding: 16px 0;
 }
 
 button, input, optgroup, select, textarea {
     font-family: 'Ubuntu', sans-serif;
 }
 
-p {
+.indented {
     text-indent: 1.5em;
+}
+
+@media screen and (max-width: 400px) {
+    .img-fluid {
+        max-height: 320px;
+    }
 }
