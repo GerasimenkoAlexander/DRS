@@ -11,8 +11,19 @@
 |
 */
 
-$app->get('/', ['middleware' => 'auth', function () use ($app) {
-    return $app->version();
-}]);
+$app->get('/', 'HomeController@index');
 
-$app->get('/home', "HomeController@index");
+$app->group(['prefix' => 'api'], function () use ($app) {
+
+    $app->post('sign-in', 'UsersController@signIn');
+    //$app->post('sign-up', 'UsersController@signUp');
+
+    $app->group(['middleware' => 'auth'], function () use ($app) {
+        //
+    });
+});
+
+//catch 404 and redirect to root
+$app->get('/{any:.+}', function ($any = null) {
+    return redirect('/');
+});

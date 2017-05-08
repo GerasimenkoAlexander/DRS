@@ -8,7 +8,7 @@ class UsersController extends Controller
 {
     public function __construct() {}
 
-    public function login(Request $request) {
+    public function signIn(Request $request) {
         $username = $request->input('username');
         $password = $request->input('password');
     }

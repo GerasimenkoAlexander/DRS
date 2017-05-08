@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>DRS::Home</title>
-    <link rel="stylesheet" href="/libs/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
@@ -25,17 +25,17 @@
                     </ol>
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
-                            <img class="d-block img-fluid" src="holder.js/800x480?auto=yes&theme=social&font=Ubuntu&text=First slide" alt="First slide">
+                            <img class="d-block img-fluid" data-src="holder.js/800x480?auto=yes&theme=social&font=Ubuntu&text=First slide" alt="First slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <h3>Title</h3>
                                 <p>Description</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block img-fluid" src="holder.js/800x480?auto=yes&theme=industrial&font=Ubuntu&text=Second slide" alt="Second slide">
+                            <img class="d-block img-fluid" data-src="holder.js/800x480?auto=yes&theme=industrial&font=Ubuntu&text=Second slide" alt="Second slide">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block img-fluid" src="holder.js/800x480?auto=yes&theme=gray&font=Ubuntu&text=Third slide" alt="Third slide">
+                            <img class="d-block img-fluid" data-src="holder.js/800x480?auto=yes&theme=gray&font=Ubuntu&text=Third slide" alt="Third slide">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -131,6 +131,6 @@
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <script src="/js/holder.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.4/holder.min.js" integrity="sha256-ifihHN6L/pNU1ZQikrAb7CnyMBvisKG3SUAab0F3kVU=" crossorigin="anonymous"></script>
 </body>
 </html>
